@@ -5,6 +5,7 @@ use aoc2022v2::{
     solutions::{
         day1::{Day1Part1, Day1Part2},
         day2::{Day2Part1, Day2Part2},
+        day3::{Day3Part1, Day3Part2},
     },
 };
 
@@ -12,6 +13,7 @@ fn main() {
     let days: Vec<Vec<&dyn Solution>> = vec![
         vec![&Day1Part1 {}, &Day1Part2 {}],
         vec![&Day2Part1 {}, &Day2Part2 {}],
+        vec![&Day3Part1 {}, &Day3Part2 {}],
     ];
 
     days.iter()
