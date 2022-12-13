@@ -6,7 +6,8 @@ use aoc2022v2::{
         day1::{Day1Part1, Day1Part2},
         day2::{Day2Part1, Day2Part2},
         day3::{Day3Part1, Day3Part2},
-        day4::{Day4Part1, Day4Part2}
+        day4::{Day4Part1, Day4Part2},
+        day5::{Day5Part1, Day5Part2},
     },
 };
 
@@ -16,6 +17,7 @@ fn main() {
         vec![&Day2Part1 {}, &Day2Part2 {}],
         vec![&Day3Part1 {}, &Day3Part2 {}],
         vec![&Day4Part1 {}, &Day4Part2 {}],
+        vec![&Day5Part1 {}, &Day5Part2 {}],
     ];
 
     days.iter()
